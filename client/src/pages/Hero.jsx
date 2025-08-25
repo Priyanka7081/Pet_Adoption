@@ -1,8 +1,9 @@
 import React from "react";
 import hero from "../assets/pexels-chevanon-1108099.png";
-
+import Card from "./Card";
 const Hero = () => {
   return (
+   <>
     <div
       className="flex items-center justify-center text-center bg-cover bg-center h-[80vh] w-[80vw] mx-auto rounded-xl mt-5"
       style={{ backgroundImage: `url(${hero})` }}
@@ -12,6 +13,8 @@ const Hero = () => {
 </h1>
 
     </div>
+    <Card />
+   </>
   );
 };
 

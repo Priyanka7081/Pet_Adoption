@@ -7,19 +7,19 @@ const Footer = () => {
         {/* Logo / Brand */}
         <div>
           <h2 className="text-2xl font-bold text-black">🐾 DogShop</h2>
-          <p className="mt-3 text-sm">
+          <p className="mt-3 text-sm font-bold">
             Your trusted place to adopt, shop, and love dogs.  
           </p>
         </div>
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-lg font-semibold text-black">Quick Links</h3>
+          <h3 className="text-lg font-bold text-black">Quick Links</h3>
           <ul className="mt-3 space-y-2 text-sm">
-            <li><a href="#" className="hover:text-green-400">Home</a></li>
-            <li><a href="#" className="hover:text-green-400">About</a></li>
-            <li><a href="#" className="hover:text-green-400">Services</a></li>
-            <li><a href="#" className="hover:text-green-400">Contact</a></li>
+            <li><a href="#" className="hover:text-green-400 font-bold">Home</a></li>
+            <li><a href="#" className="hover:text-green-400 font-bold">About</a></li>
+            <li><a href="#" className="hover:text-green-400 font-bold">Services</a></li>
+            <li><a href="#" className="hover:text-green-400 font-bold">Contact</a></li>
           </ul>
         </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom bar */}
-      <div className="text-center text-sm text-gray-500 mt-8 border-t border-gray-700 pt-4">
+      <div className="text-center text-sm font-bold text-gray-500 mt-8 border-t border-gray-700 pt-4">
         © {new Date().getFullYear()} DogShop. All rights reserved.
       </div>
     </footer>
