@@ -9,6 +9,7 @@ import AppContext from './context/AppContext';
 import About from './pages/About';
 import CardDetails from './pages/CardDetails'
 import SearchBar from './pages/SearchBar'
+// import Gallery from './pages/Gallery';
 const App = () => {
   // ✅ Don't shadow AppContext, use a different variable name
   const appData = useContext(AppContext);
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/pet/:id' element={<CardDetails/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path='/about' element={<About/>} />
+        {/* <Route path='/gallery' element={<Gallery/>} /> */}
         <Route path='/search/:term' element={<SearchBar/>} />
 
       </Routes>

@@ -1,6 +1,7 @@
 import React from "react";
 import hero from "../assets/pexels-chevanon-1108099.png";
 import Card from "./Card";
+import Gallery from './Gallery';
 const Hero = () => {
   return (
    <>
@@ -13,6 +14,7 @@ const Hero = () => {
 </h1>
 
     </div>
+    <Gallery />
     <Card />
    </>
   );
