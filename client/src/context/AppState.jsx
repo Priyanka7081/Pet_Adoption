@@ -119,7 +119,7 @@ import AppContext from "./AppContext";
 import axios from "axios";
 
 const AppState = ({ children }) => {
-  const url = "http://localhost:4000/api";
+  const url = "https://pet-adoption-backend-qzo7.onrender.com";
 
   // 🐶 Pets state
   const [animal, setAnimal] = useState([]);
