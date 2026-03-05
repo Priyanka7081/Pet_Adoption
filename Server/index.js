@@ -52,7 +52,7 @@ app.use("/api/pets", pet);
 app.use('/api/adoption', adoption);
 
 // ✅ Database & Server
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 mongoose.connect("mongodb+srv://priyankau7081:Pet123@cluster0.uqbmodq.mongodb.net/Pet_World")
   .then(() => {
